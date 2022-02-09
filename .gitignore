@@ -105,3 +105,6 @@ dist
 
 # VS Code
 .vscode
+
+client/node_modules
+api/node_modules
