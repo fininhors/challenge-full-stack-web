@@ -1,0 +1,23 @@
+{
+  "name": "challenge-full-stack-web",
+  "version": "1.0.0",
+  "description": "GrupoA Educação - Full Stack Web Developer ===================",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd client && npm run serve\" \"cd server && npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fininhors/challenge-full-stack-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fininhors/challenge-full-stack-web/issues"
+  },
+  "homepage": "https://github.com/fininhors/challenge-full-stack-web#readme"
+}
