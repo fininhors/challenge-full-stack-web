@@ -108,3 +108,7 @@ dist
 
 client/node_modules
 api/node_modules
+api/src/validators/schema.js
+api/src/prisma/migrations
+api/src/prisma/migration_lock.toml
+api/src/middlewares/SchemaValidator.js
