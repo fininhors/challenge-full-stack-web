@@ -25,11 +25,7 @@ npm install
 * Ainda dentro da pasta **api**, copie `.env.sample` para `.env` e substitua os valores de acordo com o seus dados de ambiente.
 Exemplo: na linha DATABASE_URL substitua o valor `mysql://<nome-usuario>:<senha>@<url-do banco>/<nome-do-banco>:<porta></porta>?charset=utf8` por `mysql://usuario:senha@servidor:porta/banco`.
 
-* A **api** utiliza o [Prisma](https://www.prisma.io/) como ORM. Para iniciar o Prisma, execute o comando:
-
-```bash
-npx prisma init
-```
+* A **api** utiliza o [Prisma](https://www.prisma.io/) como ORM. 
 
 * Após as configurações anteriores, execute o comando:
 
